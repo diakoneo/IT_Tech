@@ -78,7 +78,8 @@ public class ReadActivity extends AppCompatActivity {
 
         view = findViewById(R.id.view_pdf);
 
-        String filename = "psychology.pdf";
+//        String filename = "psychology.pdf";
+        String filename = "pro.pdf";
 
         view.fromAsset(filename)
                 .defaultPage(0)
